@@ -1,3 +1,5 @@
+import "./Calculadora.css"
+
 export function Calculadora() {
     return(
        <main>
