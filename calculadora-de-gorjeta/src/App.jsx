@@ -1,9 +1,13 @@
 import { Calculadora } from './components/Calculadora'
+import { Header } from './components/Header'
 
 function App() {
 
   return (
-    <Calculadora/>
+    <>
+    <Header/>
+     <Calculadora/>
+    </>
   )
 }
 
