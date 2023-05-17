@@ -6,14 +6,14 @@ export function Calculadora() {
     return(
        <main>
             <form action="">
-                <div className="bill">
+                <div className="bill mb-div">
                     <label htmlFor="bill">Conta</label>
                     <div className="input-box">
                         <img src={cifrao} alt="imagem do cifrão" />
                         <input type="number" id="bill" placeholder="0"/>
                     </div>
 
-                    <div className="tip-percentage">
+                    <div className="tip-percentage mb-div">
                         <label htmlFor="custom">Selecione a porcentagem</label>
                         <div>
                             <input type="button" value="5%" />
@@ -25,7 +25,7 @@ export function Calculadora() {
                             <input type="number" id="custom" placeholder="Outra" />
                         </div>
 
-                        <div className="people">
+                        <div className="people mb-div">
                             <label htmlFor="number">Número de Pessoas</label>
                             <div className="input-box">
                                 <img src={pessoa} alt="imagem da pessoa" />
